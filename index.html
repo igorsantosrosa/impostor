@@ -478,7 +478,7 @@
         }
         
         // Função para gerar as opções de Impostor no seletor
-        function getImpostorOptions(maxOption = 4) {
+        function getImpostorOptions(maxOption = 10) {
             let options = '';
             for (let i = 1; i <= maxOption; i++) {
                 options += `<option value="${i}" ${i === 1 ? 'selected' : ''}>${i}</option>`;
@@ -858,4 +858,5 @@
     </script>
 </body>
 </html>
+
 
